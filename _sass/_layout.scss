@@ -1,0 +1,15 @@
+.site-title {
+  font-size: $base-font-size * 1.4;
+}
+
+section.contact {
+  font-size: 2em;
+  ul {
+    list-style-type: none;
+    color: $readable-text-color;
+
+    li {
+      padding: 10px;
+    }
+  }
+}

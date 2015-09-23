@@ -1,0 +1,12 @@
+title: mati.pw
+name: mati.pw
+description: mati.pw
+baseurl: ""
+url: "https://mati.pw"
+
+lsi: false
+markdown: kramdown
+highlighter: pygments
+
+gems:
+  - jekyll-sitemap

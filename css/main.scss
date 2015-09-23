@@ -1,0 +1,20 @@
+---
+---
+$base-font-family: monospace;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+
+$text-color:       #61CE3C;
+$readable-text-color: #B8B8B8;
+$background-color: #1A1A1A;
+$background-color-light: lighten($background-color, 10%);
+
+$primary-color-one:      #7b68ee;
+$primary-color-two:      #97094b;
+
+@import
+        "base",
+        "helpers",
+        "print",
+        "layout"
+;

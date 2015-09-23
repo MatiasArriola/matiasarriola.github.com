@@ -1,0 +1,78 @@
+html {
+    color: $text-color;
+    background-color: $background-color;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: $text-color;
+    color: $background-color;
+    text-shadow: none;
+}
+
+::selection {
+    background: $text-color;
+    color: $background-color;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $primary-color-one;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {}
+
+section {
+
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+
+a {
+  color: $readable-text-color;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover, &:active {
+    color: $readable-text-color;
+    text-shadow: 3px 0px $primary-color-one,
+      -3px 0px $primary-color-two;
+  }
+
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
